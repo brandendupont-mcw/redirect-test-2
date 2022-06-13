@@ -1,10 +1,3 @@
-module.exports = (phase, { defaultConfig }) => {
-  /**
-   * @type {import('next').NextConfig}
-   */
-  const nextConfig = {
-    /* config options here */
-    basePath: '/pfa'
-  }
-  return nextConfig
+module.exports = {
+  basePath: '/docs'
 }
